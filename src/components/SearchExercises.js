@@ -18,7 +18,7 @@ const SearchExercises = () => {
           sx={{
             input: { fontWeight: "700", border: "none", borderRadius: "4px" },
             width: {
-              lg: "1170px",
+              lg: "800px",
               xs: "350px",
             },
             backgroundColor: "#fff",
@@ -32,7 +32,7 @@ const SearchExercises = () => {
         />
         <Button
           className="search-btn"
-          sx={{ bgcolor: "#ff2625", color: "#fff", textTransform: "none", width: { lg:'175px' ,xs: '80px'} }}
+          sx={{ bgcolor: "#ff2625", color: "#fff", textTransform: "none", width: { lg:'175px' ,xs: '80px'}, fontSize: {lg: '20px', xs: '12px'}, height: '56px' , position: 'absolute'}}
         >
           Search
         </Button>
