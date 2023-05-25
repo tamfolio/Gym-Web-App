@@ -9,12 +9,12 @@ const HeroBanner = () => {
       position="relative"
       p="20px"
     >
-      <Typography color="#ff2625" fontWeight="600" fontSize="26px">
+      <Typography color="#ff2625" fontWeight="600" fontSize="26px" sx={{ fontFamily: 'Poppins'}}>
         Fitness Club
       </Typography>
       <Typography
         fontWeight="700"
-        sx={{ fontSize: { lg: "44px", xs: "40px" } }}
+        sx={{ fontSize: { lg: "44px", xs: "40px" }, fontFamily: 'Poppins' }}
         mb="23px" mt="30px"
       >
         Sweat ,Smile <br /> and Repeat

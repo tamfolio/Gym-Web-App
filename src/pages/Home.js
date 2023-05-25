@@ -6,7 +6,7 @@ import SearchExercises from '../components/SearchExercises'
 
 const Home = () => {
   return (
-    <Box>
+    <Box sx={{ fontFamily: 'Poppins'}}>
       <HeroBanner/>
       <SearchExercises/>
       <Exercises/>

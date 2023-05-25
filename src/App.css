@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800;900&display=swap');
 body {
-    font-family: 'Josefin Sans';
+    font-family: 'Poppins', sans-serif;
     background-color: #FFFAFB;
   }
   
@@ -7,7 +8,11 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-  
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .css-1jucsh8-MuiTypography-root{
+    font-family: 'Poppins', sans-serif;
   }
   
   ::-webkit-scrollbar {
