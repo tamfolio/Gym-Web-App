@@ -32,7 +32,16 @@ const SearchExercises = () => {
         />
         <Button
           className="search-btn"
-          sx={{ bgcolor: "#ff2625", color: "#fff", textTransform: "none", width: { lg:'175px' ,xs: '80px'}, fontSize: {lg: '20px', xs: '12px'}, height: '56px' , position: 'absolute'}}
+          sx={{
+            bgcolor: "#ff2625",
+            color: "#fff",
+            textTransform: "none",
+            width: { lg: "175px", xs: "80px" },
+            fontSize: { lg: "20px", xs: "12px" },
+            height: "56px",
+            position: "absolute",
+            right: '0'
+          }}
         >
           Search
         </Button>
