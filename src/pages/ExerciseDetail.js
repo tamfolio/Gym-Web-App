@@ -1,8 +1,9 @@
 import React from 'react'
 
-const ExerciseDetail = () => {
+const ExerciseDetail = ({exercise}) => {
   return (
     <div>
+        
       
     </div>
   )
