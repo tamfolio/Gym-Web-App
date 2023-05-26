@@ -1,17 +1,27 @@
-import React, {useState} from 'react'
-import { Box } from '@mui/material'
-import Exercises from '../components/Exercises'
-import HeroBanner from '../components/HeroBanner'
-import SearchExercises from '../components/SearchExercises'
+import React, { useState } from "react";
+import { Box } from "@mui/material";
+import Exercises from "../components/Exercises";
+import HeroBanner from "../components/HeroBanner";
+import SearchExercises from "../components/SearchExercises";
 
 const Home = () => {
+  const [bodyPart, setBodyPart] = useState("all");
+  const [exercises, setExercises] = useState([]);
   return (
-    <Box sx={{ fontFamily: 'Poppins'}}>
-      <HeroBanner/>
-      <SearchExercises/>
-      <Exercises/>
+    <Box sx={{ fontFamily: "Poppins" }}>
+      <HeroBanner />
+      <SearchExercises
+        bodyPart={bodyPart}
+        setBodyPart={setBodyPart}
+        setExercises={setExercises}
+      />
+      <Exercises 
+         bodyPart={bodyPart}
+         setBodyPart={setBodyPart}
+         setExercises={setExercises}
+      />
     </Box>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
